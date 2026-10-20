@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarefas</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="container-table">
+        <div class="table">
+            <div class="line">
+                <div class="name-title title"> Nome da Tarefa</div>
+                <div class="description1-title title"> Descrição </div>
+                <div class="description2-title title"> Descrição </div>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="button-add" onclick="openTaskCard()">NOVA TAREFA...</button>
+    </div>
+
+    <div class="container-card invisible">
+        <div class="card">
+            <h6 class="title-input">Nome da Nova Tarefa</h6>
+            <input type="text" name="" class="input-text" id="input-title" placeholder="Crie um titulo para sua tarefa...">
+            <h6 class="title-input">Descrição</h6>
+            <input type="text" name="" class="input-text" id="input-descrip1" placeholder="Adicione uma descrição...">
+            <h6 class="title-input">Descrição</h6>
+            <input type="text" name="" class="input-text" id="input-descrip2" placeholder="Adicione uma descrição...">
+            <button type="button" class="button-new-task"onclick="addTask()">ADICIONAR TAREFA</button>
+        </div>
+    </div>
+    
+</body>
+
+<script src="./script.js"></script>
+</html>
